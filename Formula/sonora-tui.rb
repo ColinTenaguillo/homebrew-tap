@@ -1,25 +1,25 @@
 class SonoraTui < Formula
   desc "A terminal music player for TIDAL, Spotify, Apple Music, Deezer, YouTube Music, Subsonic and your own files"
   homepage "https://github.com/ColinTenaguillo/sonora-tui"
-  version "0.5.1"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.5.1/sonora-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "66d35ad3a896404c2b42b29ecccd1ac63194e312ddee29e368a80960475af828"
+      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.6.0/sonora-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "b801a32331e92a7eb48a0147ee74185c418dc5496716bc3de44be0ae1642debf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.5.1/sonora-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "01f0dabbb094bbfaa80fd98a72bb01d43ff72111ad5e01c92c3b11762de382f4"
+      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.6.0/sonora-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "6f63081f79b661fef971b916460823e39c3626ed39cbe6a349e5b94a4ae10fd0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.5.1/sonora-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4351fdef9b379701fd2f2ee83adf66ee51945298e5030e3865d3ef811f667e36"
+      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.6.0/sonora-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5bdf54c58b1259c522577ecbae678449be91cfbe477b48f1a013db17e1761718"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.5.1/sonora-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f5446c0f1d728d188f27e58469a5a38d12499834fd3fdb599c4827d0a8dc5acf"
+      url "https://github.com/ColinTenaguillo/sonora-tui/releases/download/v0.6.0/sonora-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "ef23ee0fb280b2b16186d8bc52132e52bd364474eaaf29a7b314d45d3b4d9ae0"
     end
   end
   license "GPL-3.0-or-later"
